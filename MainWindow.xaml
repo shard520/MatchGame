@@ -37,5 +37,6 @@
         <TextBlock Grid.Column="3" Grid.Row="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" Grid.Row="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" Grid.Row="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" Grid.ColumnSpan="4" HorizontalAlignment="Center" Grid.Row="4" Text="Elapsed Time" VerticalAlignment="Center" FontSize="36" MouseDown="timeTextBlock_MouseDown"/>
     </Grid>
 </Window>
